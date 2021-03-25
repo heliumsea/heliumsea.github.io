@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://heliumsea.github.io</id>
     <title>HeliumSea</title>
-    <updated>2021-03-25T00:00:15.069Z</updated>
+    <updated>2021-03-25T00:02:58.405Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://heliumsea.github.io"/>
     <link rel="self" href="https://heliumsea.github.io/atom.xml"/>
@@ -14,9 +14,8 @@
         <id>https://heliumsea.github.io/post/zai-tan-ge-de-er-bu-wan-bei-ding-li/</id>
         <link href="https://heliumsea.github.io/post/zai-tan-ge-de-er-bu-wan-bei-ding-li/">
         </link>
-        <updated>2021-03-23T02:55:00.000Z</updated>
-        <content type="html"><![CDATA[<!-- more -->
-<h1 id="前言">前言</h1>
+        <updated>2021-03-21T20:55:00.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="前言">前言</h1>
 <p>哥德尔的两个不完备定理是上世纪逻辑学中最重要的定理，拜科普读物所赐，同时也是受误解最多的定理。本文试图讲清哥德尔不完备定理到底在说什么并澄清一些误解。为了不把本文写成数理逻辑教材，我会尽量使用自然语言叙述[0]。</p>
 <p>本文第一部分简单介绍不完备定理的历史和内容。第二部分采用问答体，力求解释一些常见的问题。其实第二部分才是本文重点，如果觉得第一部分太枯燥可以直接跳过。</p>
 <p><em>本文最早发表于<a href="https://zhuanlan.zhihu.com/p/28112037">知乎专栏</a>。</em></p>
