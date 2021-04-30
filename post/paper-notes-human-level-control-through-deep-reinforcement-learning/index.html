@@ -1,30 +1,109 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://heliumsea.github.io</id>
-    <title>HeliumSea</title>
-    <updated>2021-04-30T04:47:54.896Z</updated>
-    <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://heliumsea.github.io"/>
-    <link rel="self" href="https://heliumsea.github.io/atom.xml"/>
-    <logo>https://heliumsea.github.io/images/avatar.png</logo>
-    <icon>https://heliumsea.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, HeliumSea</rights>
-    <entry>
-        <title type="html"><![CDATA[Reinforcement Learning 01: Basics]]></title>
-        <id>https://heliumsea.github.io/post/reinforcement-learning-01-basics/</id>
-        <link href="https://heliumsea.github.io/post/reinforcement-learning-01-basics/">
-        </link>
-        <updated>2021-04-28T22:42:25.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="symbols">Symbols</h1>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Paper Notes: Human-level control through deep reinforcement learning]]></title>
-        <id>https://heliumsea.github.io/post/paper-notes-human-level-control-through-deep-reinforcement-learning/</id>
-        <link href="https://heliumsea.github.io/post/paper-notes-human-level-control-through-deep-reinforcement-learning/">
-        </link>
-        <updated>2021-04-28T05:31:51.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="symbols">Symbols</h1>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>Paper Notes: Human-level control through deep reinforcement learning | HeliumSea</title>
+<meta name="description" content="">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://heliumsea.github.io/favicon.ico?v=1619758071237">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://heliumsea.github.io/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://heliumsea.github.io">
+        <img class="avatar" src="https://heliumsea.github.io/images/avatar.png?v=1619758071237" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://heliumsea.github.io">
+        <h1 class="site-title">HeliumSea</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            Home
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            Archives
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            Tags
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            About
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">Paper Notes: Human-level control through deep reinforcement learning</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2021-04-27</span>
+            
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://heliumsea.github.io/tag/FFKqvAtO7/">
+                    RL
+                    
+                      ，
+                    
+                  </a>
+                
+                  <a href="https://heliumsea.github.io/tag/xMb7c68ikl/">
+                    Paper Notes
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content">
+            <h1 id="symbols">Symbols</h1>
 <table>
 <thead>
 <tr>
@@ -70,18 +149,66 @@ rescale it to 84x84</p>
 3nd Conv Layer: 64 filters of 3x3 with stride 1 with ReLu<br>
 4nd FC Layer: 512 units with ReLu<br>
 Output: FC, action-size</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gödel's Incompleteness Theorems: What They Are and What They Are Not]]></title>
-        <id>https://heliumsea.github.io/post/godels-incompleteness-theorems-what-it-is-and-what-it-is-not/</id>
-        <link href="https://heliumsea.github.io/post/godels-incompleteness-theorems-what-it-is-and-what-it-is-not/">
-        </link>
-        <updated>2021-03-23T03:25:24.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="preface">Preface</h1>
-<p>Gödel's incompleteness theorems are the two most important theorems in the last century. Thanks to popular science books, they are also the two most-misunderstood theorems. This article tries to make them clear and clarify misunderstanding.</p>
-<h1 id="what-they-are">What They Are</h1>
-<h2 id="formal-systems">Formal Systems</h2>
-]]></content>
-    </entry>
-</feed>
+
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://heliumsea.github.io/post/godels-incompleteness-theorems-what-it-is-and-what-it-is-not/">
+              <h3 class="post-title">
+                Next：Gödel&#39;s Incompleteness Theorems: What They Are and What They Are Not
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan"></div>
+  <div class="social-container">
+    
+      
+        <a href="https://github.com/heliumsea" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      
+    
+      
+        <a href="https://twitter.com/heliumsea" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://heliumsea.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>
